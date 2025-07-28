@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
-import Fade from "react-reveal";
+import { motion } from "framer-motion";
 
 let id = 0;
+
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
@@ -22,7 +23,11 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+        >
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Works.</h1>
@@ -35,7 +40,7 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-        </Fade>
+        </motion.div>
       </section>
     );
   }

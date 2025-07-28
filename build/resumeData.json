@@ -1,0 +1,113 @@
+{
+  "main": {
+    "name": "Aravind Kumar R",
+    "description": "Senior Software Developer & Full-Stack Engineer specializing in scalable cloud-native applications.",
+    "image": "profilepic.jpg",
+    "bio": "Seasoned Full-Stack Developer and Engineering Manager with over 10 years of experience in scalable cloud-native solutions. Adept in React.js, Node.js, Azure, DevOps, and CI/CD pipelines. Passionate about driving innovation and aligning tech with business goals.",
+    "contactmessage": "Looking to collaborate or hire? Feel free to reach out!",
+    "email": "aravind.rk02@gmail.com",
+    "phone": "+91 9043567058",
+    "github": "https://github.com/aravindkumar-r",
+    "project": "https://github.com/aravindkumar-r",
+    "address": {
+      "street": "Kanchipuram",
+      "city": "Kanchipuram",
+      "state": "Tamil Nadu",
+      "zip": "631501"
+    },
+    "website": "https://www.linkedin.com/in/aravind-kumar-radhakrishnan-0816ba61",
+    "resumedownload": "#",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/aravind-kumar-radhakrishnan-0816ba61",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/aravindkumar-r",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Key technical skills and tools I excel in:",
+    "education": [
+      {
+        "school": "Sri Venkateswara College of Engineering, Sriperumbudur, TN",
+        "degree": "MCA (Master of Computer Applications)",
+        "graduated": "July 2015",
+        "description": "Focused on software development, systems architecture, and enterprise computing."
+      },
+      {
+        "school": "M.G.R Arts and Science College, Hosur - India",
+        "degree": "B.Sc (Computer Science)",
+        "graduated": "May 2012",
+        "description": "Foundational studies in programming, data structures, and system analysis."
+      }
+    ],
+    "work": [
+      {
+        "company": "Teckonnect",
+        "title": "Engineering Manager",
+        "years": "Mar 2021 - Present",
+        "description": "Led a team of 10+ developers, deployed scalable microservices on AWS, improved uptime to 99.9%, and implemented CI/CD pipelines using Azure DevOps."
+      },
+      {
+        "company": "Medabyss RCM Healthcare Services Pvt Ltd",
+        "title": "Software Developer",
+        "years": "Jun 2017 - Mar 2021",
+        "description": "Developed full-stack applications using React.js and Node.js. Created REST APIs, enhanced functionality with third-party integrations, and utilized Git/Azure DevOps."
+      },
+      {
+        "company": "Synamen Thinklabs Pvt Ltd",
+        "title": "Web Developer",
+        "years": "Dec 2015 - Jun 2017",
+        "description": "Built responsive websites using JavaScript, jQuery, and PHP. Led projects that resulted in a 300% sales increase for clients."
+      },
+      {
+        "company": "Freelance @ JK Tyre & Industries Limited",
+        "title": "Freelance Developer",
+        "years": "Jan 2015 - Jun 2015",
+        "description": "Developed a training management system using PHP and MySQL for manufacturing plants."
+      },
+      {
+        "company": "Consortium For Indian Information Technology Education",
+        "title": "ASP .Net Intern",
+        "years": "Oct 2015 - Dec 2015",
+        "description": "Built an application that auto-syncs subtitles with audio for media transcription and localization."
+      }
+    ],
+    "skills": [
+      { "name": "React JS", "level": "90%" },
+      { "name": "Node JS", "level": "90%" },
+      { "name": "Azure", "level": "85%" },
+      { "name": "CI/CD Pipelines", "level": "80%" },
+      { "name": "PostgreSQL / MySQL / MongoDB", "level": "80%" },
+      { "name": "Agile / Scrum", "level": "85%" },
+      { "name": "UI/UX", "level": "75%" }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "EnliteU",
+        "category": "Modular Employee Engagement Platform (Azure)",
+        "image": "project1.jpg",
+        "url": "https://appsource.microsoft.com/en-us/product/web-apps/teckonnect.enliteu"
+      },
+      {
+        "title": "RCM Healthcare Platform",
+        "category": "Web-based revenue cycle management system",
+        "image": "project2.jpg",
+        "url": "#"
+      },
+      {
+        "title": "SaaS Accelerator",
+        "category": "Node.js & Azure CI/CD based SaaS architecture",
+        "image": "project3.jpg",
+        "url": "#"
+      }
+    ]
+  }
+}

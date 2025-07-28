@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ak-portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/ak-portfolio/static/js/main.023aea98.js",
+    "static/js/453.b959aacb.chunk.js": "/ak-portfolio/static/js/453.b959aacb.chunk.js",
+    "index.html": "/ak-portfolio/index.html",
+    "main.023aea98.js.map": "/ak-portfolio/static/js/main.023aea98.js.map",
+    "453.b959aacb.chunk.js.map": "/ak-portfolio/static/js/453.b959aacb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.023aea98.js"
+  ]
+}
