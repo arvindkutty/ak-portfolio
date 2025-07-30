@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBook } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 class Header extends Component {
   render() {
@@ -12,7 +15,7 @@ class Header extends Component {
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
 
-        <nav id="nav-wrap">
+        <nav id="nav-wrap" class="opaque">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
@@ -52,11 +55,21 @@ class Header extends Component {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2 }}
             >
-              <a href={project} className="button btn project-btn">
-                <i className="fa fa-book"></i>Project
+              <a
+                href={project}
+                className="button btn project-btn"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faBook} /> Project
               </a>
-              <a href={github} className="button btn github-btn">
-                <i className="fa fa-github"></i>Github
+
+              <a
+                href={github}
+                className="button btn github-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} /> Github
               </a>
             </motion.ul>
           </div>

@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     const { name, image, bio, address, phone, email, resumedownload } = this.props.data;
-    const profilepic = "images/" + image;
+    const profilepic = process.env.PUBLIC_URL + "/images/" + image;
+    //const profilepic = "images/" + image;
     const { street, city, state, zip } = address;
+    const downloadLink = `${process.env.PUBLIC_URL}/${resumedownload}`;
 
     return (
       <section id="about">
@@ -21,7 +25,7 @@ class About extends Component {
             <img
               className="profile-pic"
               src={profilepic}
-              alt="Nordic Giant Profile Pic"
+              alt="Aravind Profile Pic"
             />
           </div>
           <div className="nine columns main-col">
@@ -47,8 +51,17 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumedownload} className="button">
+                  {/* <a href={resumedownload} className="button">
                     <i className="fa fa-download"></i>Download Resume
+                  </a> */}
+                  <a
+                    href={downloadLink}
+                    className="button"
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faDownload} /> Download Resume
                   </a>
                 </p>
               </div>

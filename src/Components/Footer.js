@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as brands from '@fortawesome/free-brands-svg-icons';
 
 class Footer extends Component {
   render() {
     if (!this.props.data) return null;
 
     const networks = this.props.data.social.map((network) => (
+      // <li key={network.name}>
+      //   <a href={network.url} target="_blank">
+      //     <i className={network.className}></i>
+      //   </a>
+      // </li>
       <li key={network.name}>
-        <a href={network.url}>
-          <i className={network.className}></i>
+        <a href={network.url} target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={brands[network.iconName]} />
         </a>
       </li>
     ));
@@ -26,12 +33,9 @@ class Footer extends Component {
             <ul className="social-links">{networks}</ul>
 
             <ul className="copyright">
-              <li>&copy; Copyright 2021 Nordic Giant</li>
+              <li>&copy; Copyright 2025 Aravind</li>
               <li>
-                Design by{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
+                Design by Aravind
               </li>
             </ul>
           </motion.div>

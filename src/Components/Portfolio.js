@@ -1,21 +1,43 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
+import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
 import { motion } from "framer-motion";
 
-let id = 0;
-
 class Portfolio extends Component {
+  state = {
+    isOpen: false,
+    index: 0,
+  };
+
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
+    const { isOpen, index } = this.state;
+
+    const slides = this.props.data.projects.map((project) => ({
+      src: process.env.PUBLIC_URL + "/images/portfolio/" + project.image,
+      title: project.title,
+      description: project.description || "", // optional field
+    }));
+
+    const projects = this.props.data.projects.map((project, idx) => {
+      const projectImage = process.env.PUBLIC_URL + "/images/portfolio/" + project.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+        <div key={idx} className="columns portfolio-item">
+          <div
+            className="item-wrap"
+            style={{ cursor: "pointer" }}
+            onClick={() => this.setState({ isOpen: true, index: idx })}
+          >
+            <img
+              alt={project.title}
+              src={projectImage}
+              style={{ width: "100%", height: "auto" }}
+            />
+            <div style={{ textAlign: "center" }}>{project.title}</div>
           </div>
         </div>
       );
@@ -41,6 +63,17 @@ class Portfolio extends Component {
             </div>
           </div>
         </motion.div>
+
+        {isOpen && (
+          <Lightbox
+            open={isOpen}
+            close={() => this.setState({ isOpen: false })}
+            index={index}
+            slides={slides}
+            plugins={[Captions]}
+            captions={{ showToggle: true, descriptionTextAlign: "center" }}
+          />
+        )}
       </section>
     );
   }
