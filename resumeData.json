@@ -3,47 +3,61 @@
     "name": "Aravind Kumar R",
     "description": "Senior Software Developer & Full-Stack Engineer specializing in scalable cloud-native applications.",
     "image": "profilepic.jpg",
-    "bio": "Seasoned Full-Stack Developer and Engineering Manager with over 10 years of experience in scalable cloud-native solutions. Adept in React.js, Node.js, Azure, DevOps, and CI/CD pipelines. Passionate about driving innovation and aligning tech with business goals.",
-    "contactmessage": "Looking to collaborate or hire? Feel free to reach out!",
+    "bio": "A seasoned Full-Stack Developer and Engineering Manager with over 10 years of experience in designing, developing, and deploying scalable web and cloud applications. I have demonstrated leadership by managing cross-functional teams and delivering high-impact projects. With a strong academic foundation and proficiency in Agile methodologies and DevOps, I am committed to driving innovation and aligning technical solutions with business objectives.",
+    "contactmessage": "Let’s connect and create impactful digital solutions.",
     "email": "aravind.rk02@gmail.com",
     "phone": "+91 9043567058",
-    "github": "https://github.com/aravindkumar-r",
-    "project": "https://github.com/aravindkumar-r",
+    "github": "https://github.com/arvindkutty",
+    "project": "#portfolio",
     "address": {
-      "street": "Kanchipuram",
+      "street": "Kamatchi Amman Avenue, Orikkai",
       "city": "Kanchipuram",
       "state": "Tamil Nadu",
       "zip": "631501"
     },
-    "website": "https://www.linkedin.com/in/aravind-kumar-radhakrishnan-0816ba61",
-    "resumedownload": "#",
+    "website": "https://arvindkutty.github.io/ak-portfolio/",
+    "resumedownload": "resume.pdf",
     "social": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/aravind-kumar-radhakrishnan-0816ba61",
-        "className": "fa fa-linkedin"
+        "url": "https://www.linkedin.com/in/aravindkumar-radhakrishnan-0816ba61",
+        "className": "fa fa-linkedin",
+        "iconName": "faLinkedin"
       },
       {
         "name": "github",
-        "url": "https://github.com/aravindkumar-r",
-        "className": "fa fa-github"
+        "url": "https://github.com/arvindkutty",
+        "className": "fa fa-github",
+        "iconName": "faGithub"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/arvind_kutty/",
+        "className": "fa fa-instagram",
+        "iconName": "faInstagram"
+      },
+      {
+        "name": "whatsapp",
+        "url": "https://wa.me/+919043567058",
+        "className": "fa fa-whatsapp",
+        "iconName": "faWhatsapp"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Key technical skills and tools I excel in:",
+    "skillmessage": "Technologies and capabilities I bring to the table.",
     "education": [
       {
         "school": "Sri Venkateswara College of Engineering, Sriperumbudur, TN",
         "degree": "MCA (Master of Computer Applications)",
-        "graduated": "July 2015",
-        "description": "Focused on software development, systems architecture, and enterprise computing."
+        "graduated": "2015",
+        "description": "Focused on advanced software development, cloud systems, and enterprise solutions."
       },
       {
-        "school": "M.G.R Arts and Science College, Hosur - India",
+        "school": "M.G.R Arts and Science College, Hosur",
         "degree": "B.Sc (Computer Science)",
-        "graduated": "May 2012",
-        "description": "Foundational studies in programming, data structures, and system analysis."
+        "graduated": "2012",
+        "description": "Built foundational knowledge in programming, databases, and systems design."
       }
     ],
     "work": [
@@ -51,61 +65,76 @@
         "company": "Teckonnect",
         "title": "Engineering Manager",
         "years": "Mar 2021 - Present",
-        "description": "Led a team of 10+ developers, deployed scalable microservices on AWS, improved uptime to 99.9%, and implemented CI/CD pipelines using Azure DevOps."
+        "description": "Led cross-functional teams in developing cloud-native applications using React.js, Node.js, and Azure. Architected scalable microservices, automated CI/CD pipelines, and delivered solutions with 99.9% uptime and improved performance."
       },
       {
         "company": "Medabyss RCM Healthcare Services Pvt Ltd",
         "title": "Software Developer",
         "years": "Jun 2017 - Mar 2021",
-        "description": "Developed full-stack applications using React.js and Node.js. Created REST APIs, enhanced functionality with third-party integrations, and utilized Git/Azure DevOps."
+        "description": "Developed ERP modules for Inventory, HR, and Finance. Created custom tools for Time Management and Target Allocation. Led web development, automation projects, and enhanced internal training through gamified applications."
       },
       {
         "company": "Synamen Thinklabs Pvt Ltd",
         "title": "Web Developer",
         "years": "Dec 2015 - Jun 2017",
-        "description": "Built responsive websites using JavaScript, jQuery, and PHP. Led projects that resulted in a 300% sales increase for clients."
-      },
-      {
-        "company": "Freelance @ JK Tyre & Industries Limited",
-        "title": "Freelance Developer",
-        "years": "Jan 2015 - Jun 2015",
-        "description": "Developed a training management system using PHP and MySQL for manufacturing plants."
+        "description": "Delivered 20+ WordPress-based websites and internal tools using PHP, JavaScript, and jQuery. Notably designed a retail website that increased client sales by 300%."
       },
       {
         "company": "Consortium For Indian Information Technology Education",
         "title": "ASP .Net Intern",
         "years": "Oct 2015 - Dec 2015",
-        "description": "Built an application that auto-syncs subtitles with audio for media transcription and localization."
+        "description": "Developed a media localization tool for auto-syncing audio with subtitles to support transcription workflows."
+      },
+      {
+        "company": "Freelance | JK Tyre & Industries Limited",
+        "title": "Freelance Developer",
+        "years": "Jan 2015 - Jun 2015",
+        "description": "Built a web-based training management system to plan, execute, and track employee learning activities in a manufacturing environment."
       }
     ],
     "skills": [
       { "name": "React JS", "level": "90%" },
+      { "name": "Project Leadership", "level": "80%" },
+      { "name": "DevOps", "level": "75%" },
+      { "name": "CI/CD Pipelines", "level": "85%" },
+      { "name": "Azure", "level": "80%" },
       { "name": "Node JS", "level": "90%" },
-      { "name": "Azure", "level": "85%" },
-      { "name": "CI/CD Pipelines", "level": "80%" },
       { "name": "PostgreSQL / MySQL / MongoDB", "level": "80%" },
-      { "name": "Agile / Scrum", "level": "85%" },
-      { "name": "UI/UX", "level": "75%" }
+      { "name": "PHP / WordPress", "level": "80%" },
+      { "name": "UI/UX & Design Tools", "level": "75%" },
+      { "name": "Agile / Scrum", "level": "85%" }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "EnliteU",
-        "category": "Modular Employee Engagement Platform (Azure)",
+        "title": "Enterprise Systems Architecture",
+        "category": "Led design & delivery of enterprise platforms supporting HR, Finance, and Inventory",
         "image": "project1.jpg",
-        "url": "https://appsource.microsoft.com/en-us/product/web-apps/teckonnect.enliteu"
+        "url": "#"
       },
       {
-        "title": "RCM Healthcare Platform",
-        "category": "Web-based revenue cycle management system",
+        "title": "Digital Transformation Journey",
+        "category": "Modernized business applications with React.js, Node.js, and Azure",
         "image": "project2.jpg",
         "url": "#"
       },
       {
-        "title": "SaaS Accelerator",
-        "category": "Node.js & Azure CI/CD based SaaS architecture",
+        "title": "Confidential SaaS Initiatives",
+        "category": "Spearheaded scalable SaaS product development for niche domains",
         "image": "project3.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Workplace Productivity Toolkit",
+        "category": "Developed internal tools like Time Management & KPI Monitoring",
+        "image": "project4.jpg",
+        "url": "#"
+      },
+      {
+        "title": "Responsive Web Experiences",
+        "category": "Delivered 15+ WordPress & PHP sites across diverse sectors",
+        "image": "project5.jpg",
         "url": "#"
       }
     ]
